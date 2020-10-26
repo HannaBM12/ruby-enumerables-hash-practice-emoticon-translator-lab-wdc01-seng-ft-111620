@@ -20,7 +20,8 @@ def get_english_meaning(file, emoticon)
   # code goes here
   hash = load_library(file)
   hash.each do |inner_key, inner_value|
-  binding.pry
+    binding.pry
+  end
 end
 
 def get_japanese_emoticon
