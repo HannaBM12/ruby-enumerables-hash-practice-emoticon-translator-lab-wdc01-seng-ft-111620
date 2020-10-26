@@ -13,7 +13,6 @@ def load_library(file)
     new_emoticons[key][:japanese]
 
   binding.pry
-    end
 
     #binding.pry
   end
