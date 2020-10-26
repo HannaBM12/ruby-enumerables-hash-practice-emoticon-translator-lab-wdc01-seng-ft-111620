@@ -9,8 +9,8 @@ def load_library(file)
     name[key] = {}
     name[key][:English]= value[0]
     name[key][:Japanese]= value[1]
-    
-    binding.pry
+
+    #binding.pry
   end
 
 end
