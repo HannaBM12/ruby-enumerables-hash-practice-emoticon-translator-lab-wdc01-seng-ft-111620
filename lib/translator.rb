@@ -9,8 +9,9 @@ def load_library(file)
     name[key] = {}
     name[key][:english]= value[0]
     name[key][:japanese]= value[1]
-    binding.pry
+    #binding.pry
   end
+  binding.pry 
 end
 
 def get_japanese_emoticon
