@@ -9,8 +9,8 @@ def load_library(file)
     #binding.pry
     new_emoticons[key] = {}
     #binding.pry
-    new_emoticons[key][:english]
-    new_emoticons[key][:japanese]
+    new_emoticons[key][:english] = value[0]
+    new_emoticons[key][:japanese]= value[1]
 
     binding.pry
 
