@@ -7,8 +7,8 @@ def load_library(file)
   emoticons = YAML.load_file('./lib/emoticons.yml')
   emoticons.each_with_object({}) do |(key,value),name|
     name[key] = {}
-    name[key][:English]= value[0]
-    name[key][:Japanese]= value[1]
+    name[key][:english]= value[0]
+    name[key][:japanese]= value[1]
 
     #binding.pry
   end
