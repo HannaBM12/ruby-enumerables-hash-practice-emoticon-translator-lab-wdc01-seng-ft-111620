@@ -11,17 +11,17 @@ def load_library(file)
     #binding.pry
     new_emoticons[key][:english] = value[0]
     new_emoticons[key][:japanese] = value[1]
-
   end
   new_emoticons
 end
 
-def get_japanese_emoticon(file, emoticon)
+
+def get_english_meaning(file, emoticon)
   # code goes here
   load_library(file)
   #binding.pry
 end
 
-def get_english_meaning
+def get_japanese_emoticon
   # code goes here
 end
