@@ -13,8 +13,8 @@ def load_library(file)
     new_emoticons[key][:japanese]
     value.each do |ele|
       new_emoticons[key][:english].push(ele)
-        binding.pry
       new_emoticons[key][:english].push(ele)
+      binding.pry
     end
 
     #binding.pry
