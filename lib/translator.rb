@@ -5,9 +5,9 @@ require 'yaml'
 def load_library(file)
   # code goes here
   emoticons = YAML.load_file('./lib/emoticons.yml')
-  emoticons.each_with_object({}) do |(key,value),name|
-    binding.pry 
-    name[key] = {}
+  emoticons.each_with_object({}) do |(key,value), new_emoticons|
+    binding.pry
+    new_emoticons[key] = {}
     name[key][:english]= value[0]
     name[key][:japanese]= value[1]
     #binding.pry
