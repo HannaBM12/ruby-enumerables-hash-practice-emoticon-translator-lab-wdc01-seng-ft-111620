@@ -11,7 +11,7 @@ def load_library(file)
     name[key][:japanese]= value[1]
     #binding.pry
   end
-  binding.pry 
+  binding.pry
 end
 
 def get_japanese_emoticon
