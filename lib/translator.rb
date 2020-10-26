@@ -8,9 +8,15 @@ def load_library(file)
   emoticons.each_with_object({}) do |(key,value), new_emoticons|
     #binding.pry
     new_emoticons[key] = {}
-    binding.pry 
-    name[key][:english]= value[0]
-    name[key][:japanese]= value[1]
+    #binding.pry
+    new_emoticons[key][:english]
+    new_emoticons[key][:japanese]
+    value.each do |ele|
+      binding.pry 
+      new_emoticons[key][:english].push(ele)
+    end
+
+
     #binding.pry
   end
 #binding.pry
