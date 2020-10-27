@@ -22,6 +22,7 @@ def get_english_meaning(file, emoticon)
   hash.each do |key, value|
     #binding.pry
     if value[:japanese] == emoticon
+      binding.pry
       return value[:english]
       binding.pry
     end
