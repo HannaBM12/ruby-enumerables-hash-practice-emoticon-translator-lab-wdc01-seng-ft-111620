@@ -24,7 +24,7 @@ def get_english_meaning(file, emoticon)
     if emoticon == value[:japanese]
       #binding.pry
       return value[:english]
-      binding.pry
+    binding.pry
     end
     #binding.pry
   end
