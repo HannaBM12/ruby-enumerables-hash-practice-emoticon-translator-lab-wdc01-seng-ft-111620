@@ -19,13 +19,12 @@ end
 def get_english_meaning(file, emoticon)
   # code goes here
   hash = load_library(file)
+  message = "Sorry, the message is not a known emoticon "
   hash.each do |key, value|
     #binding.pry
     if emoticon == value[:japanese]
       #binding.pry
       return key
-    else
-      return sorry the message is not a known emoticon
     #binding.pry
     end
     #binding.pry
