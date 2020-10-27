@@ -25,7 +25,7 @@ def get_english_meaning(file, emoticon)
       #binding.pry
       return key
     else
-      return "sorry the message is not a known emoticon"
+      return sorry the message is not a known emoticon
     #binding.pry
     end
     #binding.pry
