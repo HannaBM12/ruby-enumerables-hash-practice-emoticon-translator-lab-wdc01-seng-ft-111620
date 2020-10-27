@@ -24,10 +24,11 @@ def get_english_meaning(file, emoticon)
       inner_value[:english]
       #binding.pry
     end
-
-    binding.pry
+    #binding.pry
   end
+  binding.pry
 end
+
 
 def get_japanese_emoticon
   # code goes here
