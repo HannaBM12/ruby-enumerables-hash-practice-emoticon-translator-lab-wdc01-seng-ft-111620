@@ -19,9 +19,9 @@ end
 def get_english_meaning(file, emoticon)
   # code goes here
   hash = load_library(file)
-  hash.each do |inner_key, inner_value|
-    if inner_value[:japanese] == emoticon
-      inner_value[:english]
+  hash.each do |key, value|
+    if value[:japanese] == emoticon
+      return value[:english]
       #binding.pry
     end
     #binding.pry
