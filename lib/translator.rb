@@ -26,14 +26,12 @@ def get_english_meaning(file, emoticon)
       return key
     #binding.pry
     end
-
-    binding.pry
   end
   if key == " "
     return message
   end
-  
-#binding.pry
+
+binding.pry
 end
 
 
