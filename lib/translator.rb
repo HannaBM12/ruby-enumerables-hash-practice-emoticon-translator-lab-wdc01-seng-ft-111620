@@ -27,10 +27,9 @@ def get_english_meaning(file, emoticon)
     #binding.pry
     end
   end
-  if key == " "
+  if key = " "
     return message
   end
-
 binding.pry
 end
 
