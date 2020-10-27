@@ -25,9 +25,8 @@ def get_english_meaning(file, emoticon)
       #binding.pry
     end
 
-    #binding.pry
+    binding.pry
   end
-  inner_value[:english]
 end
 
 def get_japanese_emoticon
