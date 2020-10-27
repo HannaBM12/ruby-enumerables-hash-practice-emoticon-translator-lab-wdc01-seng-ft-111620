@@ -24,6 +24,8 @@ def get_english_meaning(file, emoticon)
     if emoticon == value[:japanese]
       #binding.pry
       return key
+    else
+      return "sorry the message is not a known emoticon"
     #binding.pry
     end
     #binding.pry
