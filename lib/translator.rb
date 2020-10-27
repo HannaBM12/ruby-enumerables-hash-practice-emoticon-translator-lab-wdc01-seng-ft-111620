@@ -21,7 +21,7 @@ def get_english_meaning(file, emoticon)
   hash = load_library(file)
   hash.each do |key, value|
     #binding.pry
-    if value[:japanese] == emoticon
+    if emoticon == value[:japanese]
       binding.pry
       return value[:english]
       binding.pry
